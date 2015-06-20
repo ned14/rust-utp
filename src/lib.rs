@@ -59,6 +59,7 @@
 extern crate rand;
 extern crate time;
 extern crate num;
+extern crate libc;
 #[macro_use] extern crate log;
 #[cfg(test)] extern crate quickcheck;
 
@@ -73,3 +74,4 @@ mod bit_iterator;
 mod packet;
 mod socket;
 mod stream;
+mod timed_read;
